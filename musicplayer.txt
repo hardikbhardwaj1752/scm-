@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul style="background-image: linear-gradient(rgb(90, 30, 30), black);">
+            <li class="brand"><img src="logo.jpg" alt="Musify">Musify</li>
+            <li><a href="musicplayer.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="exploreprem.html">Explore Premium</a></li>
+            <li><abbr title="Profile"><i class="fa-solid fa-user"></i></abbr></li>
+            <li><abbr title="Settings"><i class="fa-solid fa-gear"></i></abbr></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="SongList">
+            <h1>Most Played Of the Week:-</h1>
+            <div class="SongItemContainer"></div>
+            <div>
+                <div class="songItem">
+                    <img src="" alt="1">
+                    <span class="songName">Mockingbird</span>
+                    <span class="songlistplay"><span class="timestamp">03:25</span><abbr title="play"><i id="0" class="fa-regular songItemPlay fa-solid fa-circle-play"></i></abbr></span>
+                </div> 
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Zero After Zero</span>
+                    <span class="songlistplay"><span class="timestamp">03:25</span><abbr title="play"><i id="1" class="fa-regular songItemPlay fa-solid fa-circle-play"></i></abbr></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Hua Main</span>
+                    <span class="songlistplay"><span class="timestamp">03:25</span><abbr title="play"><i id="2" class="fa-regular songItemPlay fa-solid fa-circle-play"></i></abbr></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Paya Maine</span>
+                    <span class="songlistplay"><span class="timestamp">03:25</span><abbr title="play"><i id="3" class="fa-regular songItemPlay fa-solid fa-circle-play"></i></abbr></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Chaleya</span>
+                    <span class="songlistplay"><span class="timestamp">03:25</span><abbr title="play"><i id="4" class="fa-regular songItemPlay fa-solid fa-circle-play"></i></abbr></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Believer</span>
+                    <span class="songlistplay"><span class="timestamp">03:25</span><abbr title="play"><i id="5" class="fa-regular songItemPlay fa-solid fa-circle-play"></i></abbr></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Besabriyan</span>
+                    <span class="songlistplay"><span class="timestamp">03:25</span><abbr title="play"><i id="6" class="fa-regular songItemPlay fa-solid fa-circle-play"></i></abbr></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Bottom">
+        <input type="range" name="range" id="myProgressBar" max="100">
+              <div class="icons">
+            <abbr title="Previuos"><i class="fa-3x fa-solid fa-backward-step" id="previous"></i></abbr>
+            <abbr title="Play"><i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i></abbr>
+            <abbr title="Forward"><i class="fa-3x fa-solid fa-forward-step" id="next"></i></abbr>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="50px" id="gif"> <span id="masterSongName" style="font-weight: bolder; font-size: x-large;">Mockingbird</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5e4859a3fd.js" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+</html>
